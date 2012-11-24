@@ -64,7 +64,7 @@ _color() {
 
 _user_name() {
   if [ $USER = "AbhishekNalwaya" ]; then
-    echo "🎃 🔫"
+    echo "🎃  🔫"
   fi
 }
 
@@ -115,7 +115,7 @@ _rprompt() {
 }
 
 _status_result() {
-  echo "%(?,$(_green "💁 😍 👲"), $(_red "🙅 😭 💀"))"
+  echo "%(?,$(_green "😍 👍 🏆"), $(_red " 😡  👎  💀 " ))"
 }
 
 PROMPT='$(_bracket_wrap "$(_basic)$(_separate $(_colored_git_branch))$(_separate $(_colored_git_difference))")$(_display_current_vim_mode) '
